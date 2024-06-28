@@ -8,7 +8,12 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navi">
+    <div id="loader" class="loader">
+        <div class="loader-letter">n</div>
+        <div class="loader-letter">p</div>
+        <div class="loader-letter">m</div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top navi">
         <div class="container-fluid">
             <a class="navbar-brand mb-0 h1 fw-bolder" id="brand">&lt;npm&gt;</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +25,10 @@
                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
-                <div class="form-check form-switch justify-content-end">
-                    <input type="checkbox" role="switch" id="flexSwitchCheckDefault" class="form-check-input" onclick="changeMode()">
-                    <label for="flexSwitchCheckDefault" class="form-check-label"></label>
-                </div>
+            </div>
+            <div class="form-check form-switch justify-content-end">
+                <input type="checkbox" role="switch" id="flexSwitchCheckDefault" class="form-check-input" onclick="changeMode()">
+                <label for="flexSwitchCheckDefault" class="form-check-label"></label>
             </div>
         </div>
     </nav>
